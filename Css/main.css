@@ -12,7 +12,6 @@ body {
 }
 
 header {
-    display: inline-flex;
     background-color: #1da1f2;
     font-family: "Open Sans", sans-serif;
     position: fixed;
@@ -30,11 +29,13 @@ header {
 }
 
 .title {
-    margin-left: 17px;
-    width: 600px;
-    height: 300px;
+    width: auto;
+    margin-left: 65px;
+    margin-right: 20px;
+    height: 300px;    
+    float:left;
     background-color: white;
-    float: left;
+    cursor: pointer;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -57,18 +58,16 @@ a {
 }
 
 main {
-    width: 100%;
     margin-top: 70px;
-    overflow: auto;
-    position: relative;
     display: inline-flex;
 }
 
 .panel {
-    width: 600px;
+    width: auto;
+    margin-left: 65px;
     height: 300px;
-    position: relative;
-    left: 110px;
+    margin-right: 20px;
+    float:left;
     background-color: white;
     cursor: pointer;
     font-family: "Open Sans", sans-serif;
@@ -94,8 +93,9 @@ main {
 }
 
 #form {
-    width: 90%;   
-    padding-top: 80px;
+    width: auto;   
+    margin-left: 5px; 
+    /* padding-top: 80px; */
     margin-top: 20px;
     background-color: #fff; 
 }
@@ -126,7 +126,7 @@ main {
     margin-top: 10px;
     margin-left: 17px;
     width: 600px;
-    height: 300px;
+    height: 100px;
     background-color: rgba(255, 255, 255, 0.53);
     float: left;
     display: block;

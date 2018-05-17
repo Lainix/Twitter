@@ -15,6 +15,12 @@ button.addEventListener('click', function saveText(event) {
     textContainer.appendChild(paragraph);
     textContainer.classList.add('containerText');
     paragraph.classList.add('text');
-
-  }
+  } else if(textArea.value.length == 0 || textArea == null) {
+      alert('Debes ingresar un mensaje');
+      return false;
+    };
 });
+
+// var trash = document.getElementById('i');
+// trash.classList.add('fa', 'fa-trash', 'trash');
+
