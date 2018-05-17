@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Twitter</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+    <link rel="stylesheet" href="Css/main.css">
+
+    <body>
+
+        <!-- Inicio de mi header -->
+        <header>
+            <div class="logo">
+                <span>Twitter</span>
+            </div>
+        </header>
+
+        <!-- Main de mi pagina  -->
+        <main>
+            <!-- Strella y h1 -->
+
+            <section>
+                <div class="title">
+                    <h1>Reto de Código</h1>
+                    <div>
+                        <p class="Hello">Hola</p>
+                        <p class="developer">Soy Front-end developer Jr.</p>
+                        <a class="code" href="#">CÓDIGO</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tableros -->
+            <section class="panel">
+                <div id="container" class="hide-container"></div>
+                <div>
+                    <div class="insert" id="insert-list">
+                        <textarea id="input" type="text" autofocus placeholder="¿Qué estás pensando?" required='text'></textarea>
+                    </div>
+                    <form id="form" class="hide" action="">
+                        <input type="button" class="boton" id="btn-agregar" value="Twitter" autofocus></input>
+                        <i id="fo" class="fa fa-times fa-2x list-add-close"></i>
+                        <span id="containerSpan"></span>
+                    </form>
+                </div>
+            </section>
+
+            <section class="tweets">
+                <h2></h2>
+                <div id="containerTeweets"></div>
+            </section>
+
+        </main>
+
+        <!-- Script -->
+        <script src="Js/app.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous">
+    </body>
+
+</html>
